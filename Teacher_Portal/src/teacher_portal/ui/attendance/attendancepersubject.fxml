@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="537.0" prefWidth="807.0" stylesheets="@../../Resources/dark-theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="teacher_portal.ui.attendance.AttendancepersubjectController">
+   <children>
+      <Label fx:id="upd" alignment="CENTER" contentDisplay="CENTER" layoutX="187.0" layoutY="12.0" prefHeight="33.0" prefWidth="433.0" text="UPDATE ATTENDANCE" textFill="#dff2e1">
+         <font>
+            <Font name="Baskerville Old Face" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="upd1" alignment="CENTER" contentDisplay="CENTER" layoutX="187.0" layoutY="47.0" prefHeight="33.0" prefWidth="433.0" text="of year and subject " textFill="#dff2e1">
+         <font>
+            <Font name="Baskerville Old Face" size="27.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="211.0" layoutY="93.0" prefHeight="33.0" prefWidth="76.0" text="Date:" textFill="#dff2e1">
+         <font>
+            <Font name="Baskerville Old Face" size="27.0" />
+         </font>
+      </Label>
+      <JFXDatePicker fx:id="datepick" layoutX="314.0" layoutY="91.0" />
+      <TableView fx:id="studentattendlist" layoutX="262.0" layoutY="183.0" prefHeight="270.0" prefWidth="284.0">
+        <columns>
+          <TableColumn fx:id="rollno" prefWidth="277.0" text="Roll No" />
+          <TableColumn fx:id="p" minWidth="0.0" prefWidth="0.0" text="IsPresent" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="handleupdate" layoutX="327.0" layoutY="460.0" onAction="#handleupdateoperation" prefHeight="39.0" prefWidth="139.0" text="Update" />
+      <Label layoutX="633.0" layoutY="205.0" prefHeight="24.0" prefWidth="124.0" text="Present Roll No" textFill="#ebdbdb">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="printpresent" alignment="TOP_CENTER" layoutX="605.0" layoutY="227.0" prefHeight="173.0" prefWidth="152.0" text="Roll No." textAlignment="CENTER" textFill="#fffdfd" underline="true" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="info" layoutX="328.0" layoutY="507.0" prefHeight="17.0" prefWidth="152.0" textFill="#fcfcfc" />
+   </children>
+</AnchorPane>

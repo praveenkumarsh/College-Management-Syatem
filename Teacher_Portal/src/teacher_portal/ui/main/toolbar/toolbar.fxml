@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.net.URL?>
+<?import javafx.scene.layout.VBox?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+
+<VBox prefHeight="650.0" prefWidth="250.0" styleClass="toolbar-container" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="teacher_portal.ui.main.toolbar.ToolbarController">
+   <children>
+      <JFXButton fx:id="home" alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#loadhomeWindow" prefHeight="400.0" prefWidth="250.0" styleClass="toolbar-button" text="Home" textAlignment="CENTER">
+         <graphic>
+            <FontAwesomeIconView glyphName="HOME" size="25" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="dashboard" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadDashboardWindow" prefHeight="400.0" prefWidth="250.0" styleClass="toolbar-button" text="My Profile" textAlignment="CENTER">
+         <graphic>
+            <FontAwesomeIconView glyphName="DASHBOARD" size="25" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="attendance" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadAttendanceWindow" prefHeight="400.0" prefWidth="250.0" styleClass="toolbar-button" text="Attendance Update" textAlignment="CENTER">
+         <graphic>
+            <FontAwesomeIconView glyphName="ATTENDANCE" size="25" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="notice" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="81.0" mnemonicParsing="false" onAction="#loadNoticeWindow" prefHeight="400.0" prefWidth="250.0" styleClass="toolbar-button" text="Notice Upload" textAlignment="CENTER">
+         <graphic>
+            <FontAwesomeIconView glyphName="ANCHOR" size="25" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="settings" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" onAction="#loadSettingsWindow" prefHeight="400.0" prefWidth="250.0" styleClass="toolbar-button" text="Settings" textAlignment="CENTER">
+         <graphic>
+            <FontAwesomeIconView glyphName="COG" size="25" />
+         </graphic>
+      </JFXButton>
+   </children>
+   <stylesheets>
+      <URL value="@../../../../../resources/dark-theme.css" />
+      <URL value="@../../../Resources/dark-theme.css" />
+   </stylesheets>
+</VBox>

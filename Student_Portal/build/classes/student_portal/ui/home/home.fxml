@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="home_pane" prefHeight="537.0" prefWidth="807.0" stylesheets="@../../Resources/dark-theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="student_portal.ui.home.HomeController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="79.0" layoutY="180.0" prefHeight="89.0" prefWidth="650.0" text="Welcome To Delhi Technological University" textFill="#d3d5eb">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="79.0" layoutY="263.0" prefHeight="89.0" prefWidth="650.0" text="Student Portal" textFill="#cdcfe8">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="user" alignment="CENTER" contentDisplay="CENTER" layoutX="79.0" layoutY="38.0" prefHeight="89.0" prefWidth="650.0" text="Welcome" textFill="#bbbdda">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="307.0" layoutY="507.0" prefHeight="3.0" prefWidth="195.0" text="EveryThing In One Place" textFill="#d3d5eb">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

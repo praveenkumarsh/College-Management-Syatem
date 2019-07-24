@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="home_pane" prefHeight="537.0" prefWidth="807.0" stylesheets="@../../Resources/dark-theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin_portal.ui.home.HomeController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="307.0" layoutY="507.0" prefHeight="3.0" prefWidth="195.0" text="EveryThing In One Place" textFill="#d3d5eb">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="80.0" layoutY="18.0" onAction="#handleteacherupdateloginpasswrd" prefWidth="300.0" text="Update Teacher Login Password" />
+      <JFXButton layoutX="428.0" layoutY="18.0" onAction="#handlestudentupdateloginpasswrd" prefWidth="300.0" text="Update Student Login Password" />
+      <JFXButton layoutX="80.0" layoutY="88.0" onAction="#handlechangeteacherfromrecord" prefWidth="300.0" text="Change Teacher From Record" />
+      <JFXButton layoutX="428.0" layoutY="88.0" onAction="#handledeletestudent" prefWidth="300.0" text="Delete Student From Record" />
+      <JFXTextField fx:id="enteryr" layoutX="362.0" layoutY="139.0" onAction="#handlegetstudentdetailbyyear" prefHeight="37.0" prefWidth="51.0" />
+      <JFXButton layoutX="237.0" layoutY="183.0" onAction="#handlegetstudentdetailbyyear" prefWidth="300.0" text="Get Student Details By Year" />
+      <AnchorPane fx:id="innerpane" layoutX="64.0" layoutY="231.0" prefHeight="275.0" prefWidth="650.0" />
+   </children>
+</AnchorPane>

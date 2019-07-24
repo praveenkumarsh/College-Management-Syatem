@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="537.0" prefWidth="807.0" stylesheets="@../../Resources/dark-theme.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <Label layoutX="286.0" layoutY="233.0" prefHeight="71.0" prefWidth="235.0" text="Coming Soon" textFill="#bc8e8e">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="537.0" prefWidth="807.0" stylesheets="@../../Resources/dark-theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="student_portal.ui.dashboard.DashboardController">
+   <children>
+      <Label fx:id="dashboardmain" alignment="CENTER" layoutX="322.0" layoutY="22.0" text="Student DashBoard" textFill="#6bb0dd">
+         <font>
+            <Font name="Times New Roman Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="70.0" text="User ID" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="100.0" text="Program" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="130.0" text="Discipline" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="160.0" text="Stage" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="224.0" layoutY="190.0" text="Email ID" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="227.0" layoutY="220.0" text="DOB" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="229.0" layoutY="250.0" text="Father Name" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="228.0" layoutY="280.0" text="Mother Name" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="230.0" layoutY="310.0" text="Address" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="229.0" layoutY="395.0" text="Phone No" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="userid" layoutX="383.0" layoutY="70.0" text="User ID" textFill="#c9ffcc">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="program" layoutX="381.0" layoutY="101.0" text="Program" textFill="#c9ffcc">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="discipline" layoutX="380.0" layoutY="132.0" text="Discipline" textFill="#c9ffcc">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="stage" layoutX="380.0" layoutY="160.0" text="Stage" textFill="#c9ffcc">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="emailid" layoutX="379.0" layoutY="191.0" text="Email ID" textFill="#c9ffcc">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="dob" layoutX="378.0" layoutY="221.0" text="DOB" textFill="#c9ffcc">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="fathername" layoutX="378.0" layoutY="251.0" text="Fathername" textFill="#c9ffcc">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="mothername" layoutX="377.0" layoutY="281.0" text="Mothername" textFill="#c9ffcc">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="address" alignment="TOP_LEFT" layoutX="377.0" layoutY="311.0" prefHeight="69.0" prefWidth="151.0" text="Address" textFill="#c9ffcc" wrapText="true">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="phoneno" layoutX="373.0" layoutY="396.0" text="P NO" textFill="#c9ffcc">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="studentphoto" fitHeight="133.0" fitWidth="106.0" layoutX="59.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true" />
+      <JFXButton layoutX="49.0" layoutY="249.0" onAction="#handleupdateprofile" text="Update Profile" />
+   </children>
+</AnchorPane>

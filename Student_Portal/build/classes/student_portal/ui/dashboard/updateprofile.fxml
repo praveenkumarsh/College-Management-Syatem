@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" stylesheets="@../../Resources/dark-theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="student_portal.ui.dashboard.UpdateprofileController">
+    <children>
+      <Label fx:id="dashboardmain" alignment="CENTER" layoutX="205.0" layoutY="25.0" text="Student DashBoard" textFill="#6bb0dd">
+         <font>
+            <Font name="Times New Roman Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="70.0" text="User ID" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="156.0" text="Program" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="186.0" text="Discipline" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="216.0" text="Stage" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="224.0" layoutY="246.0" text="Email ID" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="227.0" layoutY="276.0" text="DOB" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="229.0" layoutY="306.0" text="Father Name" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="228.0" layoutY="336.0" text="Mother Name" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="230.0" layoutY="366.0" text="Address" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="229.0" layoutY="451.0" text="Phone No" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="studentphoto" fitHeight="133.0" fitWidth="106.0" layoutX="59.0" layoutY="75.0" onMouseClicked="#handleuploadimage" pickOnBounds="true" preserveRatio="true" />
+      <JFXButton layoutX="45.0" layoutY="423.0" onAction="#handleupdateprofile" prefHeight="39.0" prefWidth="124.0" text="Update" />
+      <JFXTextField fx:id="userid" alignment="BOTTOM_LEFT" editable="false" layoutX="349.0" layoutY="49.0" />
+      <JFXTextField fx:id="program" alignment="BOTTOM_LEFT" layoutX="349.0" layoutY="132.0" />
+      <JFXTextField fx:id="discipline" alignment="BOTTOM_LEFT" layoutX="349.0" layoutY="161.0" />
+      <JFXTextField fx:id="stage" alignment="BOTTOM_LEFT" layoutX="348.0" layoutY="191.0" />
+      <JFXTextField fx:id="emailid" alignment="BOTTOM_LEFT" editable="false" layoutX="346.0" layoutY="221.0" />
+      <JFXTextField fx:id="dob" alignment="BOTTOM_LEFT" layoutX="346.0" layoutY="251.0" />
+      <JFXTextField fx:id="fathername" alignment="BOTTOM_LEFT" layoutX="347.0" layoutY="282.0" />
+      <JFXTextField fx:id="mothername" alignment="BOTTOM_LEFT" layoutX="346.0" layoutY="314.0" />
+      <JFXTextField fx:id="phoneno" alignment="BOTTOM_LEFT" layoutX="345.0" layoutY="433.0" />
+      <JFXTextArea fx:id="address" focusColor="WHITE" layoutX="347.0" layoutY="365.0" prefHeight="69.0" prefWidth="177.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></JFXTextArea>
+      <Label layoutX="223.0" layoutY="124.0" text="User Name" textFill="#d7d3d4">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="username" alignment="BOTTOM_LEFT" layoutX="349.0" layoutY="102.0" />
+      <JFXButton fx:id="uploadbutton" layoutX="54.0" layoutY="225.0" prefHeight="39.0" prefWidth="106.0" text="Upload" />
+      <Label fx:id="infolabel" layoutX="31.0" layoutY="470.0" prefHeight="17.0" prefWidth="160.0" textFill="#eec3c3" />
+   </children>
+</AnchorPane>

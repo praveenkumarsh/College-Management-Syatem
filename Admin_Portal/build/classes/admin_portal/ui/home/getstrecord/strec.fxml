@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="275.0" prefWidth="650.0" stylesheets="@../../../../../../Student_Portal/src/student_portal/Resources/dark-theme.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="admin_portal.ui.home.getstrecord.StrecController">
+   <children>
+      <Label layoutX="259.0" layoutY="14.0" text="Student Record" textFill="#daacac">
+         <font>
+            <Font name="Cambria Math" size="20.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tview" layoutX="26.0" layoutY="48.0" prefHeight="200.0" prefWidth="598.0">
+        <columns>
+          <TableColumn fx:id="sno" prefWidth="61.0" text="Sno." />
+          <TableColumn fx:id="rno" prefWidth="161.0" text="Roll no" />
+            <TableColumn fx:id="name1" prefWidth="147.0" text="Name" />
+            <TableColumn fx:id="fathername1" prefWidth="225.0" text="Father Name" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

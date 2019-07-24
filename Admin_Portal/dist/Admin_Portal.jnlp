@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Admin_Portal.jnlp">
+  <information>
+    <title>Admin_Portal</title>
+    <vendor>Praveen</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Admin_Portal.jar" size="3840403" download="eager" />
+    <jar href="lib\fontawesomefx-commons-8.15.jar" size="20957" download="eager" />
+    <jar href="lib\fontawesomefx-fontawesome-4.7.0-5.jar" size="136891" download="eager" />
+    <jar href="lib\jfoenix-8.0.4.jar" size="2487326" download="eager" />
+    <jar href="lib\log4j-api-2.11.0.jar" size="263109" download="eager" />
+    <jar href="lib\log4j-core-2.11.0.jar" size="1600780" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.47-bin.jar" size="1007505" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Admin_Portal" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="admin_portal.ui.main.Admin_Portal"  name="Admin_Portal" />
+  <update check="always"/>
+</jnlp>
