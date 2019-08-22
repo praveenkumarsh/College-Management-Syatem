@@ -15,6 +15,15 @@ public class connect1 {
         int d1 = admin_portal.database_connection.DaoStudent.delete(userid);
         int d2 = admin_portal.database_connection.DaoStudentInformation.delete(userid);
         int d3 = admin_portal.database_connection.DaoStudentAttendance.delete(year, userid);
+        if(d1== 1){
+            System.out.println("Userid Delete");
+        }
+        if(d2 == 1){
+            System.out.println("Information Delete");
+        }
+        if(d3 == 1){
+            System.out.println("Attendance Delete");
+        }
         if(d1==1&&d2==1&&d3 == 1){
             return 1;
         }else{

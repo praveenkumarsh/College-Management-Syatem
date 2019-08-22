@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Admin_Portal.jar" size="3840403" download="eager" />
+    <jar href="Admin_Portal.jar" size="3840530" download="eager" />
     <jar href="lib\fontawesomefx-commons-8.15.jar" size="20957" download="eager" />
     <jar href="lib\fontawesomefx-fontawesome-4.7.0-5.jar" size="136891" download="eager" />
     <jar href="lib\jfoenix-8.0.4.jar" size="2487326" download="eager" />

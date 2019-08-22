@@ -2,6 +2,17 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/D:/Praveen/Documents/GitHub/College-Management-Syatem/Admin_Portal/src/admin_portal/ui/home/HomeController.java</file>
+            <file>file:/D:/Praveen/Documents/GitHub/College-Management-Syatem/Admin_Portal/src/admin_portal/database_connection/DaoStudentAttendance.java</file>
+            <file>file:/D:/Praveen/Documents/GitHub/College-Management-Syatem/Admin_Portal/src/admin_portal/ui/main/MainController.java</file>
+            <file>file:/D:/Praveen/Documents/GitHub/College-Management-Syatem/Admin_Portal/src/admin_portal/ui/main/Admin_Portal.java</file>
+            <file>file:/D:/Praveen/Documents/GitHub/College-Management-Syatem/Admin_Portal/src/admin_portal/database_connection/retrieveSingleDetails.java</file>
+            <file>file:/D:/Praveen/Documents/GitHub/College-Management-Syatem/Admin_Portal/src/admin_portal/database_connection/DaoStudent.java</file>
+            <file>file:/D:/Praveen/Documents/GitHub/College-Management-Syatem/Admin_Portal/src/admin_portal/connectstudentandinformation/connect1.java</file>
+            <file>file:/D:/Praveen/Documents/GitHub/College-Management-Syatem/Admin_Portal/src/admin_portal/database_connection/DB.java</file>
+            <file>file:/D:/Praveen/Documents/GitHub/College-Management-Syatem/Admin_Portal/src/admin_portal/database_connection/DaoStudentInformation.java</file>
+            <file>file:/D:/Praveen/Documents/GitHub/College-Management-Syatem/Admin_Portal/src/admin_portal/ui/home/studentdelete/StudentdeletedunController.java</file>
+        </group>
     </open-files>
 </project-private>
