@@ -36,16 +36,16 @@ java -jar "Student_Portal.jar"
 ```
 java -jar "Teacher_Portal.jar"
 ```
-SAMPLE USERID AND PASSWORD
-ADMIN PORTAL
--USER ID = admin
--PASSWORD = admin123
-TEACHER PORTAL
--USERID = teacher4
--PASSWORD = Teacher4
-STUDENT PORTAL
--USERID = 2k16/co/002
--PASSWORD = rohit1
+SAMPLE USERID AND PASSWORD<br/>
+ADMIN PORTAL<br/>
+-USER ID = admin<br/>
+-PASSWORD = admin123<br/>
+TEACHER PORTAL<br/>
+-USERID = teacher4<br/>
+-PASSWORD = Teacher4<br/>
+STUDENT PORTAL<br/>
+-USERID = 2k16/co/002<br/>
+-PASSWORD = rohit1<br/>
 
 
 ### Installing
